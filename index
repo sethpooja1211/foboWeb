@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="favicon.ico">
+
+    <title>Jumbotron Template for Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="./css/stylesheet.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <a class="navbar-brand" href="#"><img src="./img/fobo_tra1.png" alt=""/></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+         <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">Disabled</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+            <!-- <div class="dropdown-menu" aria-labelledby="dropdown01">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div> -->
+          </li>
+        </ul> 
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="effectclassx"> 
+                <h1 class="display-3">Hello, world!</h1>
+                <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
+                <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
+            </div>   
+          </div>
+          <div class="col-md-6">
+            <div class="effectclassm"> 
+              <img src="./img/bannerchat.png" alt="banner img"/>
+            </div>  
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container"><!---main body container starts here-->
+       <div class="sectionpart"><!---second section part starts here-->
+          <div class="col-md-12 text-center">
+             <h2> The people you want to reach are already here.</h2>
+              <p> With bots and live-messaging tools, you can create a custom experience for your unique audience.</p>
+              <p> Learn more about the <a>Messenger Platform</a></p>
+          </div>
+          <hr>
+          <div class="col-md-12 text-center">
+            <h2> Messenger lets you interact with people... </h2>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+               <img src="./img/chatbox.png" alt=""/>
+            </div>
+            <div class="col-md-6">
+              <div class="_12mx">
+                  <h4> Where they already are </h4>
+                  <p class="_12mf"> Now people won't need to download an app to interact with you. Just build your bot and instantly reach people on whichever device and platform they use. </p>
+              </div>
+            </div>
+          </div>
+          <hr>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="_12mx">
+                  <h4>  How they interact with each other  </h4>
+                  <p class="_12mf">  Messenger's conversational interface lets you communicate in the moment, in a personal way.  </p>
+              </div>
+            </div>
+            <div class="col-md-6">
+                <img src="./img/veg.png" alt=""/>
+            </div>
+          </div>
+          <hr>
+          <div class="row">
+            <div class="col-md-8">
+               <img src="./img/bootshop.png" alt=""/>
+            </div>
+            <div class="col-md-4">
+              <div class="_12mx">
+                  <h4>  Real businesses with real results  </h4>
+                  <p class="_12mf">  Discover how leading brands are acquiring and converting customers on Messenger. See our success stories. </p>
+              </div>
+            </div>
+          </div>
+          <hr>
+          <div class="_12mf text-center">
+             <h4> Learn more about Messenger Platform </h4/>
+          </div>
+          <div class="row _12mx _12mb">
+             <div class="col-xs-6 _16wx colspan text-center ">
+              <div class="img1_2_5"><img src="./img/messagebox.png" alt="" /></div>
+               <div> Messenger Platform </div>
+             </div>
+             <div class="col-xs-6 _25wx colspan text-center ">
+               <div class="img1_2_5"><img src="./img/linegraph.png" alt="" /></div>
+               <div> Messenger Blog </div>
+             </div>
+             <div class="col-xs-6 _16wx colspan text-center ">
+               <div class="img3"><img src="./img/inspectbox.png" alt="" /></div>
+               <div> Directory </div>
+             </div>
+             <div class="col-xs-6 _25wx colspan text-center ">
+               <div class="img1_2_5"><img src="./img/docinfo.png" alt="" /></div>
+               <div> Developer Documentation </div>
+             </div> 
+             <div class="col-xs-12 _16wx colspan text-center ">
+               <div class="img5"><img src="./img/directory.png" alt="" /></div>
+               <div> Success Stories </div>
+             </div> 
+          </div>  
+       </div><!---second section part end-->
+    </div><!---main body container end-->
+    <div class="_12mf bottombgpart">
+       <div class="text-center">
+           <h3> Ready to build your FoBO? </h3><br/>
+           <button class="btn btn-default" type="submit">Start Building</button>
+       </div>
+    </div>
+      <footer class="footer">
+        <div class="row nopadding">
+          <div class="col-md-3">
+            <ul class="footer-link">
+               <li>Facebook Login</li>
+               <li>Sharing on Facebook</li>
+               <li>Games</li>
+               <li>Facebook Ads</li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+             <ul class="footer-link">
+               <li>Facebook Login</li>
+               <li>Sharing on Facebook</li>
+               <li>Games</li>
+               <li>Facebook Ads</li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+             <ul class="footer-link">
+               <li>Facebook Login</li>
+               <li>Sharing on Facebook</li>
+               <li>Games</li>
+               <li>Facebook Ads</li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <ul class="footer-link">
+               <li>Facebook Login</li>
+               <li>Sharing on Facebook</li>
+               <li>Games</li>
+               <li>Facebook Ads</li>
+            </ul>
+          </div>
+          <p class="text-center">&copy; FoBo 2017 | All Rights Reserved | Terms of Use | Privacy Policy</p>
+        </div>
+      </footer>
+     <!-- /container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="./js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
