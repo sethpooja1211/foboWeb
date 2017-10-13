@@ -14,7 +14,7 @@
     <link href="./css/stylesheet.css" rel="stylesheet">
   </head>
 
-<body>
+<body id="top">
   <div id="main_content">
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
       <a class="navbar-brand" href="#"><img src="./img/fobo_tra1.png" alt=""/></a>
@@ -25,7 +25,7 @@
       <div class="collapse navbar-collapse" id="navbarsExampleDefault">
          <ul class="navbar-nav mr-auto float-md-right">
           <li class="nav-item active">
-            <a class="nav-link smoothscroll color_w" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link smoothscroll color_w" href="#top">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
             <a class="nav-link smoothscroll color_w" href="#about">About FoBo</a>
@@ -49,14 +49,25 @@
     <div class="jumbotron">
       <div class="container">
         <div class="row">
-          <div class="col-xs-12 col-sm-4 col-md-6">
+          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
             <div class="effectclassx">
-              <h3 class="display-3">Food at Movie Seat</h3>
+              <h3 class="display-3 font-weight-bold">Food at Movie Seat</h3>
                 <p>With the FoBo, You can order popcorn, Pasta, Nachos, Drinks without leaving your movie seat. No Need to download any application.</p>
-                <p><a class="btn btn-primary btn-lg smoothscroll" href="#about" role="button">Learn more &raquo;</a></p>
+                <div class="d-none d-sm-none d-md-block d-xl-block">
+        				   <a class="btn btn-primary btn-lg smoothscroll" href="#about" role="button">Learn more &raquo;</a>
+        				   <a class="btn btn-primary btn-lg ml-3" href="https://www.messenger.com/t/foboai" target="_blank" role="button">
+                     <span><img src="./img/fbm2.svg" width="22" alt="facebook messenger" /></span>
+                     Messenger</a>
+        				</div>
+          			<div class="d-block d-sm-block d-md-none d-xl-none mb-4">
+          			   <a href="#about" class="btn btn-primary btn-sm" role="button">Learn more &raquo;</a>
+          			   <a href="https://www.messenger.com/t/foboai" class="btn btn-primary btn-sm ml-2" target="_blank" role="button">
+                     <span><img src="./img/fbm2.svg" width="17" alt="facebook messenger" /></span>
+                     Messenger</a>
+          			</div>
             </div>
           </div>
-          <div class="col-xs-12 col-sm-8 col-md-6">
+          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
             <div class="effectclassm">
               <img src="./img/bannerchat.png" alt="banner img"/>
             </div>
@@ -127,7 +138,7 @@
     				</div>
 			        <div class="d-block d-sm-none d-md-none d-xl-none col-xs-12 col-sm-8 col-md-8">
     				   <img src="./img/bootshop.png" alt=""/>
-    				</div>		
+    				</div>
 				</div><!--Row end Here -->
 
        </div><!---second section part end-->
